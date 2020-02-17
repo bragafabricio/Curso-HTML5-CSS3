@@ -155,44 +155,46 @@ input[type=submit] {
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: #f4cd80;
+    border: 1px solid #f4cd80;
     color: #FFF;
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 1px solid #f4cd80;
+    color: #f4cd80;
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active  {
-    background-color: #cf6d17;
+    background-color: #f0bb51;
     
 }
 
 .btn-full:hover,
 .btn-full:active,
 input[type=submit]  {
-    border: 1px solid #cf6d17;
+    border: 1px solid #f0bb51;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #cf6d17;
+    border: 1px solid #f0bb51;
     color: #FFF;
 }
 
 /* ------------------------------------- */
 /* HEADER */
 /* ------------------------------------- */
+
+
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    height: 100vh;
+    background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)), url(img/IMG_1706.jpg);
+    height: 80vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Let the background image fixed while scrolling the page*/
