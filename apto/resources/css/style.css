@@ -1,5 +1,6 @@
 /* 
-Orange: #e67e22
+Orange: #f2da5e
+#f2da5e
 */
 
 /* ------------------------------------- */
@@ -59,8 +60,8 @@ h1 {
     letter-spacing: 1px;
     margin-top: 0;
     margin-bottom: 20px;
-    color: #FFF;
-    font-size: 240%;
+    color: #F0F0F0;
+    font-size: 260%;
     word-spacing: 4px;
 }
 
@@ -75,7 +76,7 @@ h2 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: #f2da5e;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -92,6 +93,7 @@ h3 {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+    text-align: center;
 }
 
 .box p {
@@ -103,7 +105,7 @@ h3 {
 .icon-big {
     font-size: 350%;
     display: block;
-    color: #e67e22;
+    color: #f2da5e;
     margin-bottom: 10px;
 }
 
@@ -111,7 +113,7 @@ h3 {
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #e67e22;
+    color: #f2da5e;
     font-size: 120%;
     margin-right: 10px;
 
@@ -125,10 +127,10 @@ h3 {
 /* --------LINKS--------*/
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #f2da5e;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
+    border-bottom: 1px solid #f2da5e;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
@@ -146,7 +148,7 @@ a:active {
 input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
@@ -155,35 +157,35 @@ input[type=submit] {
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #f4cd80;
-    border: 1px solid #f4cd80;
-    color: #FFF;
+    background-color: #f6e58d;
+    border: 1px solid #f6e58d;
+    color: #FAFAFA;
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #f4cd80;
-    color: #f4cd80;
+    border: 1px solid #f6e58d;
+    color: #f6e58d;
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active  {
-    background-color: #f0bb51;
+    background-color: #f2da5e;
     
 }
 
 .btn-full:hover,
 .btn-full:active,
 input[type=submit]  {
-    border: 1px solid #f0bb51;
+    border: 1px solid #f2da5e;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #f0bb51;
+    border: 1px solid #f2da5e;
     color: #FFF;
 }
 
@@ -193,7 +195,7 @@ input[type=submit]  {
 
 
 header {
-    background-image: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)), url(img/IMG_1706.jpg);
+    background-image: linear-gradient(rgba(100, 100, 100, 0.2), rgba(100, 100, 100, 0.2)), url(img/IMG_1706.jpg);
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -203,7 +205,7 @@ header {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -239,7 +241,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #f2da5e;
 }
 
 /* ------------------------------------- */
@@ -329,8 +331,8 @@ header {
 }
 
 .works-step div {
-    color: #e67e22;
-    border: 2px solid #e67e22;
+    color: #f2da5e;
+    border: 2px solid #f2da5e;
     display: inline-block;
     border-radius: 50%;
     height: 55px;
@@ -446,7 +448,7 @@ cite img {
     font-size: 300%;
     margin-bottom: 10px;
     font-weight: 100;
-    color: #e67e22;
+    color: #f2da5e;
 }
 
 .plan-price span {
