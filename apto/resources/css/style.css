@@ -264,29 +264,29 @@ header {
 /* ------------------------------------- */
 /* MEALS */
 /* ------------------------------------- */
-.section-meals {
+.section-photos {
     padding: 0;
 }
 
-.meals-showcase {
+.apto-showcase {
     list-style: none;
     width: 100%;
 }
 
-.meals-showcase li {
+.apto-showcase li {
     display: block;
     float: left;
     width: 25%;
 }
 
-.meal-photo {
+.apto-photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
 }
 
-.meal-photo img {
+.apto-photo img {
     opacity: 0.7;
     width: 100%;
     height: auto;
@@ -294,7 +294,7 @@ header {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.meal-photo img:hover {
+.apto-photo img:hover {
     opacity: 1;
     transform: scale(1.03);
 }
