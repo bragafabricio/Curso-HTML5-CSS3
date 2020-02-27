@@ -1,6 +1,7 @@
 /* 
-Orange: #f2da5e
-#f2da5e
+Brown: #6f5f4e
+Lighter: #97816a
+Super Lighter: #f2efec
 */
 
 /* ------------------------------------- */
@@ -13,7 +14,7 @@ Orange: #f2da5e
 }
 
 html {
-    background-color: #FFF;
+    background-color: #f2efec;
     color: #555;
     font-family: 'Lato','Arial', sans-serif;
     font-weight: 300;
@@ -76,7 +77,7 @@ h2 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #f2da5e;
+    background-color: #97816a;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -105,7 +106,7 @@ h3 {
 .icon-big {
     font-size: 350%;
     display: block;
-    color: #f2da5e;
+    color: #97816a;
     margin-bottom: 10px;
 }
 
@@ -113,7 +114,7 @@ h3 {
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #f2da5e;
+    color: #97816a;
     font-size: 120%;
     margin-right: 10px;
 
@@ -127,10 +128,10 @@ h3 {
 /* --------LINKS--------*/
 a:link,
 a:visited {
-    color: #f2da5e;
+    color: #97816a;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #f2da5e;
+    border-bottom: 1px solid #97816a;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
@@ -157,35 +158,35 @@ input[type=submit] {
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #f6e58d;
-    border: 1px solid #f6e58d;
+    background-color: #6f5f4e;
+    border: 1px solid #6f5f4e;
     color: #FAFAFA;
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #f6e58d;
-    color: #f6e58d;
+    border: 1px solid #6f5f4e;
+    color: #6f5f4e;
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active  {
-    background-color: #f2da5e;
+    background-color: #97816a;
     
 }
 
 .btn-full:hover,
 .btn-full:active,
 input[type=submit]  {
-    border: 1px solid #f2da5e;
+    border: 1px solid #97816a;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #f2da5e;
+    border: 1px solid #97816a;
     color: #FFF;
 }
 
@@ -241,28 +242,34 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #f2da5e;
+    border-bottom: 2px solid #97816a;
 }
 
 /* ------------------------------------- */
-/* FEATURES */
+/* HOME-BAR */
 /* ------------------------------------- */
 
-.section-features .long-copy {
-    margin-bottom: 30px;
-}
-
-/*
-.row div { /*align icons and justifyng paragraph JFF
+.section-home-bar p {   
     text-align: center;
 }
-.row div p { /*align icons and justifyng paragraph JFF
-    text-align: justify;
+
+.section-home-bar {
+    padding: 150px 0;
+    color: #efefef;
+    background-color: #6f5f4e;
 }
-*/
+
+.hsh-icon {
+    padding-bottom: 5px;
+    width: 70px;
+    height: auto;
+    
+}
+
+
 
 /* ------------------------------------- */
-/* Fotos Apto */
+/* SECTION-PHOTOS */
 /* ------------------------------------- */
 .section-photos {
     padding: 0;
@@ -281,6 +288,7 @@ header {
 
 .apto-photo {
     width: 100%;
+    height: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
@@ -294,10 +302,31 @@ header {
     transition: transform 0.5s, opacity 0.5s;
 }
 
+.lavanderia img {
+    width: 107.6%;
+}
 .apto-photo img:hover {
     opacity: 1;
     transform: scale(1.03);
 }
+
+
+/* ------------------------------------- */
+/* FEATURES */
+/* ------------------------------------- */
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+/*
+.row div { /*align icons and justifyng paragraph JFF
+    text-align: center;
+}
+.row div p { /*align icons and justifyng paragraph JFF
+    text-align: justify;
+}
+*/
 
 /* ------------------------------------- */
 /* HOW IT WORKS */
@@ -331,8 +360,8 @@ header {
 }
 
 .works-step div {
-    color: #f2da5e;
-    border: 2px solid #f2da5e;
+    color: #97816a;
+    border: 2px solid #97816a;
     display: inline-block;
     border-radius: 50%;
     height: 55px;
@@ -448,7 +477,7 @@ cite img {
     font-size: 300%;
     margin-bottom: 10px;
     font-weight: 100;
-    color: #f2da5e;
+    color: #97816a;
 }
 
 .plan-price span {
