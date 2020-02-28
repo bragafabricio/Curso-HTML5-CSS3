@@ -203,7 +203,7 @@ input[type=submit]  {
 
 header {
     background-image: linear-gradient(rgba(100, 100, 100, 0.2), rgba(100, 100, 100, 0.2)), url(img/IMG_1706.jpg);
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Let the background image fixed while scrolling the page*/
@@ -212,7 +212,7 @@ header {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -223,6 +223,10 @@ header {
     float: left;
     margin-top: 20px;
 }
+
+
+/*MAIN NAV*/
+
 
 .main-nav {
     float: right;
@@ -250,6 +254,45 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #97816a;
 }
+
+/*MOBILE NAV*/
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+
+/*STICKY NAV*/
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #dfbf9e9f;
+    box-shadow: 0 2px 2px #dfbe9ecc;
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    margin-top: 18px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #efefef;
+}
+
+.sticky .logo { display: none;}
+.sticky .logo-black {display: block;}
 
 /* ------------------------------------- */
 /* HOME-BAR */
@@ -333,6 +376,22 @@ header {
     text-align: justify;
 }
 */
+
+/* ------------------------------------- */
+/* SECTION-CONTACT */
+/* ------------------------------------- */
+
+.section-contact {
+    background-color: #97816a;
+    color: #f2efec;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.section-contact h4{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
 
 /* ------------------------------------- */
 /* HOW IT WORKS */
@@ -611,4 +670,26 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
+}
+
+
+/* ------------------------------------- */
+/* ANIMATIONS */
+/* ------------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-4 {
+    animation-duration: 1s;
+}
+
+.js--wp-1 .animated, 
+.js--wp-2 .animated, 
+.js--wp-3 .animated {
+    opacity: 1;
 }

@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <link rel="stylesheet" type="text/css" href="./vendors/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="./vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="./vendors/css/ionicons.min.css">
-        <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
+
         <title>Vende-se: Apartamento 2 dorms. Jardim Miriam</title>
+
+
+        <link rel="stylesheet" type="text/css" href="./vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="./vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="./resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./resources/favicon/site.webmanifest">
+        <link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#7a9298">
+        <link rel="shortcut icon" href="./resources/favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/CAMINHODAFIGURAAQUI/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
     </head>
     <body>
         <header>
             <nav>
                 <div class="row">
-                    <ul class="main-nav">
-                        <li><a href="#">Conheça mais</a></li>
-                        <li><a href="#">Fotos</a></li>
-                        <li><a href="#">Localização</a></li>
-                        <li><a href="#">Contato</a></li>
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#photos">Fotos</a></li>
+                        <li><a href="#features">Conheça mais</a></li>
+                        <li><a href="#contact">Contato</a></li>
                     </ul>
                 </div>
             </nav>
             <div class="row hero-text-box">
                 <h1>Vende-se Apto 2 Dorms. </h1>
-                <a class="btn btn-full" href="#">Eu quero!</a>
-                <a class="btn btn-ghost" href="#">Mais Detalhes</a>
+                <a class="btn btn-full js--scroll-to-contact" href="#">Eu quero!</a>
+                <a class="btn btn-ghost js--scroll-to-photos" href="#">Mais Detalhes</a>
             </div>
         </header>
         
-        <section class="section-home-bar">
-            <p class="subtitle"><img class="hsh-icon" src="./resources/img/home-sweet-home.svg"><br>"O melhor lugar para começar um novo ciclo"</p>
+        <section class="section-home-bar js--section-home-bar">
+            <p class="subtitle"><img class="hsh-icon js--wp-2" src="./resources/img/home-sweet-home.svg"><br>"O melhor lugar para começar um novo ciclo"</p>
         </section>
 
         
-        <section class="section-photos">
+        <section class="section-photos js--section-photos" id="photos">
             <ul class="apto-showcase clearfix">
                 <li>
                     <figure class="apto-photo">
@@ -79,7 +93,7 @@
         </section>
 
 
-        <section class="section-features">
+        <section class="section-features" id="features">
             <div class="row">
                 <h2>Um lindo apto &mdash; um novo lar</h2>
                 <p class="long-copy">
@@ -87,7 +101,7 @@
                 </p>
             </div>
 
-            <div class="row">
+            <div class="row js--wp-1">
                 <div class="col span-1-of-4 box">
                     <i class="ion-ios-infinite-outline icon-big"></i>
                     <h3>Tudo planejado</h3>
@@ -123,14 +137,19 @@
 
         </section>
         
-        <section class="section-form">
+        <section class="section-contact js--section-contact" id="contact">
             <div class="row">
                 <h2>Quer conhecer? Agende uma visita.</h2>
             </div>
-            <h4> WhatsApp: (19) 98324-0571 / (19) 98326-3919 </h4>
+            
+            <h4><i class="ion-android-call icon-call"></i>  WhatsApp: (19) 98324-0571 / (19) 98326-3919 </h4>
 
         </section>
         
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="./vendors/js/jquery.waypoints.min.js"></script>
+        <script src="./resources/js/script.js"></script>
 
     </body>
 
