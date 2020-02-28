@@ -297,16 +297,17 @@ header {
 /* ------------------------------------- */
 /* HOME-BAR */
 /* ------------------------------------- */
+.section-home-bar {
+    padding: 150px 0;
+    color: #efefef;
+    background-color: #6f5f4e;
+    height: 60vh;
+}
 
 .section-home-bar p {   
     text-align: center;
 }
 
-.section-home-bar {
-    padding: 150px 0;
-    color: #efefef;
-    background-color: #6f5f4e;
-}
 
 .hsh-icon {
     padding-bottom: 5px;
@@ -376,22 +377,6 @@ header {
     text-align: justify;
 }
 */
-
-/* ------------------------------------- */
-/* SECTION-CONTACT */
-/* ------------------------------------- */
-
-.section-contact {
-    background-color: #97816a;
-    color: #f2efec;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-.section-contact h4{
-    font-weight: 300;
-    text-transform: uppercase;
-}
-
 
 /* ------------------------------------- */
 /* HOW IT WORKS */
@@ -590,6 +575,44 @@ input[type=checkbox] {
 }
 
 *:focus {outline: none;}
+
+
+/* ------------------------------------- */
+/* SECTION-CONTACT */
+/* ------------------------------------- */
+
+.section-contact {
+    background-color: #97816a;
+    color: #f2efec;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.section-contact h4{
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline-block;
+}
+
+.section-contact .column-contact {
+    padding-left: 36%;
+}
+
+.column-contact div {
+    color: #f2efec;
+    border: 2px solid #f2efec;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 7px;
+    float: left;
+    font-size: 150%;
+    margin: 16px;
+    
+}
+
 
 /* ------------------------------------- */
 /* FOOTER */
